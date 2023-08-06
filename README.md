@@ -18,7 +18,7 @@ Pin1 on each XLR socket is connected to a ground pour on the back of the PCB.  T
 
 # Build tips
 
-
+You will need to add your own switches to the build for the protection diodes and the voltage divider.  If not using these then jumper the connections.
 
 # BOM
 
