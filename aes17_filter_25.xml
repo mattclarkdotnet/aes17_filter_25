@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/matt/git.nosync/AES17_DIY/kicad/amptest.kicad_sch</source>
+    <date>2023 August 01, Tuesday 07:40:34</date>
+    <tool>Eeschema 7.0.6-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>amptest.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>047d9a9c-8095-465f-b862-348b936f4600</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07a957f4-d815-42e1-96e9-d63a6fb28d81</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9dbc6752-233a-48e2-a6ab-f5a9d1edd286</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3972be50-070d-457c-beac-c54db5f3c6ad</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8fda62d-09bf-49a2-a580-0a4294d166fd</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>220</value>
+      <footprint>Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98ae6201-f829-44e6-accc-022793ad26fe</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7n</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3ec882a-6522-4aef-a7c3-0483d72ab9bf</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7n</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f63e8838-077d-4cd8-bfca-841bca2fc3e9</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7n</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22a62327-af9a-46c6-b9e8-8775ae01e68c</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7n</value>
+      <footprint>Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8faf537b-e7e7-4f13-aeb2-78674598bbe9</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8ddc7242-9f70-4aea-ae27-be3dd2b5574e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Zener</value>
+      <footprint>Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Zener diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d836f354-3c6b-41ab-a559-cbb52585bd7c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>NC3FAAH</value>
+      <footprint>Connector_Audio:Jack_XLR_Neutrik_NC3FAAH_Horizontal</footprint>
+      <datasheet>https://www.neutrik.com/en/product/nc3faah</datasheet>
+      <libsource lib="Connector_Audio" part="NC3FAAH" description="AA Series, 3 pole female XLR receptacle, grounding: without ground/shell contact, horizontal PCB mount"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="AA Series, 3 pole female XLR receptacle, grounding: without ground/shell contact, horizontal PCB mount"/>
+      <property name="ki_keywords" value="xlr connector neutrik"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>236805a1-30fa-4231-a3e1-63d4e808173b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>NC3MAAH</value>
+      <footprint>Connector_Audio:Jack_XLR_Neutrik_NC3MAAH_Horizontal</footprint>
+      <datasheet>https://www.neutrik.com/en/product/nc3maah</datasheet>
+      <libsource lib="Connector_Audio" part="NC3MAAH" description="AA Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="AA Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"/>
+      <property name="ki_keywords" value="xlr connector neutrik"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7231de60-268f-4acf-85ac-e4694431d5f9</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector:Banana_Cliff_FCR7350x_S16N-PC_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e300d54-5c06-41d9-9f8b-107a52997601</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x01_Pin</value>
+      <footprint>Connector:Banana_Cliff_FCR7350x_S16N-PC_Horizontal</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Pin" description="Generic connector, single row, 01x01, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93520fdd-c61d-4e29-9f10-9cac48a2ec3b</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>1m</value>
+      <footprint>Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>925696ec-753f-4dd7-ae3a-45aa87235852</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>1m</value>
+      <footprint>Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eff02d08-baf5-4947-bf1c-2200c1ee7d1e</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>1m</value>
+      <footprint>Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c720d57-cf8e-4a6c-adde-adbfb41cd886</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>1m</value>
+      <footprint>Inductor_THT:L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>710b1e41-c0fd-48f0-b248-17e198391aac</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>500</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0630848-ea6e-4204-8819-1f08d55ac48a</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>500</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b5df835-e2c6-43ee-87aa-cc6f893dc734</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94f33d5b-5417-4577-b975-4c0966b91fc3</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2e2e805a-d367-42e8-ba3c-bfcf98081e24</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7dac89ad-aad3-46f2-802c-522769a5c9f3</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>68</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff9bd61c-200b-4535-a9f1-3468023e7b59</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>3300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0596c6e7-67fd-43e1-ab82-6c510e6b0dc9</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>3300</value>
+      <footprint>Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P25.40mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cfad7a3b-5756-4206-82a6-e7d06bb516b2</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c1a7fc99-e3d0-4ca5-95fc-982914479d64</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>22</value>
+      <footprint>Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8dec69d8-2db7-4ba7-ab52-d28e69ce87c5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>300k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25aa03b7-ae77-4c06-87cd-edcbcb2f8310</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>300k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30d9defb-356d-45d4-a1fa-5ed7303d2f6b</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DPST</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_DPST" description="Double Pole Single Throw (DPST) Switch"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Double Pole Single Throw (DPST) Switch"/>
+      <property name="ki_keywords" value="switch dual double-pole single-throw OFF-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>897690f4-e64d-46d2-bc93-c092b6bf0a0b</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_DPDT_x2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Switch" part="SW_DPDT_x2" description="Switch, dual pole double throw, separate symbols"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="amptest.kicad_sch"/>
+      <property name="ki_description" value="Switch, dual pole double throw, separate symbols"/>
+      <property name="ki_keywords" value="switch dual-pole double-throw DPDT spdt ON-ON"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e4108d5d-2b5c-4df4-821c-1650721bc6ca cda204d3-97ef-4503-84d8-e8afd9b0375b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Pin">
+      <description>Generic connector, single row, 01x01, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="NC3FAAH">
+      <description>AA Series, 3 pole female XLR receptacle, grounding: without ground/shell contact, horizontal PCB mount</description>
+      <docs>https://www.neutrik.com/en/product/nc3faah</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NC3FAAH</field>
+        <field name="Footprint">Connector_Audio:Jack_XLR_Neutrik_NC3FAAH_Horizontal</field>
+        <field name="Datasheet">https://www.neutrik.com/en/product/nc3faah</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Audio" part="NC3MAAH">
+      <description>AA Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount</description>
+      <docs>https://www.neutrik.com/en/product/nc3maah</docs>
+      <footprints>
+        <fp>Jack*XLR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">NC3MAAH</field>
+        <field name="Footprint">Connector_Audio:Jack_XLR_Neutrik_NC3MAAH_Horizontal</field>
+        <field name="Datasheet">https://www.neutrik.com/en/product/nc3maah</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="G" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPDT_x2">
+      <description>Switch, dual pole double throw, separate symbols</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*DPDT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPDT_x2</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="4" name="A" type="passive"/>
+        <pin num="5" name="B" type="passive"/>
+        <pin num="6" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DPST">
+      <description>Double Pole Single Throw (DPST) Switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DPST</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Audio">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Audio.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+      <node ref="J2" pin="G" pintype="passive"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="4" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(J3-Pin_1)">
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(L3-Pad1)">
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(SW2A-B)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(SW2A-C)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(SW2B-B)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="5" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(SW2B-C)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="SW2" pin="6" pinfunction="C" pintype="passive"/>
+    </net>
+  </nets>
+</export>
