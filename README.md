@@ -3,23 +3,23 @@
 The goal is to make a cheap DIY passive filter for use in class D amp measurements, much like the AP AUX-0025.  The AP AUX-0025 specs as read off the graph on the AP website are approximately:
 * -20dB @ 150kHz
 * -40dB @ 200kHz
-* -60dB @ 250kHz
+* -55dB @ >250kHz
 * 20-40kHz deviation < 0.1dB
 
 We also want:
 * All components operating below 20% of component tolerances when RMS voltage is 2.83V (8V P-P) for standard "1 watt" amp performance measurements
-* P-P voltage 100V into any load including a short circuit while staying within component tolerances
-* P-P voltage 200V into loads over 4.7k while staying within component tolerances
+* P-P voltage 100V into any load including a short circuit
+* P-P voltage 200V into loads over 1k
 
 # Design discussion
 
-The filter design is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  A switchable set of 8.2V protection diodes is added to ensure the measurement device doesn't get overloaded, as is a switchable voltage divider for high voltage measurements.  There is also a set of test jacks for connecting a multimeter to monitor true RMS output.
+The filter design is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  A switchable set of 8.2V protection diodes is added to ensure the measurement device doesn't get overloaded, as is a switchable voltage divider for high voltage measurements.  There is also a set of test jacks for connecting a multimeter to monitor true RMS output.  These changes will reduce ultimate performance but with the benefit of safety and convenience.
 
 Pin 1 on each XLR socket is connected to a ground pour on the back of the PCB.  There are no other connections to the ground pour.  The chassis is floating, as the chassis ground pins on the XLR sockets are unconnected.
 
-The 100V P-P any-load requirement is met by the 500R/3W input resistors (ignoring the much lower resistances of the remainder of the circuit).  100V P-P is 35Vrms, whch is 2.7W into a 500ohm load.  The RMS current source they provide is around 70mA, which is well within tolerances of the inductors and other resistors.
+The 100V P-P any-load requirement is met by the 500R/3W input resistors (ignoring the much lower resistances of the remainder of the circuit).  100V P-P is 35Vrms, whch is 2.7W into a 500ohm load.  The RMS current source they provide is around 70mA, which is well within tolerances of the downstream inductors (800mA) and resistors (1W).
 
-The 200V P-P requirement is met by the high voltage ratings of the capacitors.
+The 200V P-P requirement into more reasonable loads is met by the voltage ratings of the capacitors. In the case of C1 and C2 this provides a rated 500V between rails.
 
 # Build tips
 
