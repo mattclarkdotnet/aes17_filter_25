@@ -11,7 +11,7 @@ I also wanted the ability to pad down the output for high power measurements
 
 See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  There is also a set of test jacks for connecting a multimeter to monitor true RMS output.  The matching to the AUX-0025 response curve is nonetheless very close.
 
-A set of pad-down resistors allows for convenient high voltage measurements at the expense of some increase in residual noise when they are switched in.  R11 and R12 pad-down resistors should be 1% tolerance, with values chosen for the load of your particular ADC and the gain reduction you want to achieve.  For a 20dB reduction into a 60kOhm load use 270kOhm resistors: $`60/(60+270*2)=0.1`$, or for a 12dB reduction into a 100kOhm load use 150kOhm resistors: $`100V/(100R+150R*2)=0.25`$
+A set of pad-down resistors allows for convenient high voltage measurements at the expense of some increase in residual noise when they are switched in.  R11 and R12 pad-down resistors should be 1% tolerance, with values chosen for the load of your particular ADC and the gain reduction you want to achieve.  For a 20dB reduction into a 60kOhm load use 270kOhm resistors: $`60K/(60K+270K*2)=0.1`$, or for a 12dB reduction into a 100kOhm load use 150kOhm resistors: $`100K/(100K+150K*2)=0.25`$
 
 The load impedance should be >50kOhm for best performance, but a 10kOhm load is still +-0.1dB 20Hz-20kHz, albeit with 0.4dBV of insertion loss.
 
