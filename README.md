@@ -5,7 +5,17 @@ The goal is to make a cheap DIY passive filter for use in class D amp measuremen
 * +-0.05dB, 20Hz-20kHz
 * Max input voltage 400V P-P (140Vrms)
 
-I also wanted the ability to pad down the output for high power measurements
+I also wanted the ability to pad down the output for high power measurements.  The resulting board looks like this:
+
+![3D board model](./board_3D.png)
+
+# Results
+
+The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitation from 20Hz to 20kHz, and 50dB rejection or more from 230kHz up.  The 100mdBV variation is maintained across a wide range of loads from 15k to 450k.
+
+![Screenshot of simulated frequency response](./freq_load100k.png)
+
+
 
 # Design discussion
 
@@ -17,7 +27,7 @@ The load impedance should be >50kOhm for best performance, but a 10kOhm load is 
 
 Pin 1 on each XLR socket is connected to a ground pour on the back of the PCB, as are the XLR chassis grounding pins.  This gave the best noise results for me in an all metal case.
 
-A brief short circuit, even with a high voltage applied, should be OK. The 500R/3W input resistors can take a steady state 75Vrms indefinitely ($75V^2/1000R=5.6W$), although the inductors will clearly saturate unless a reasonable load is connected to limit the current to 800mOhm or less. The 140Vrms requirement into more reasonable loads is met by the voltage ratings of the capacitors. In the case of C1 and C2 this provides a rated 500Vpp between signal rails.
+A brief short circuit, even with a high voltage applied, should be OK. The 500R/3W input resistors can take a steady state 75Vrms indefinitely ($75V^2/1000R=5.6W$), although the inductors will clearly saturate unless a reasonable load is connected to limit the current to 800mA. The 140Vrms requirement into more reasonable loads is met by the voltage ratings of the capacitors. In the case of C1 and C2 this provides a rated 500Vpp between signal rails.
 
 # Build tips
 
