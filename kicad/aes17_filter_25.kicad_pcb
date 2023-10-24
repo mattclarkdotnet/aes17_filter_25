@@ -410,12 +410,12 @@
       (net 19 "Net-(J3-Pin_1)") (pintype "passive") (tstamp c26d1707-d658-4c88-8601-a1a8a29a1f58))
     (pad "G" thru_hole circle (at 3.81 5.08) (size 2.9 2.9) (drill 1.2) (layers "*.Cu" "*.Mask")
       (net 10 "GND") (pintype "passive") (tstamp bc73980c-efce-46e3-8509-241bfbbc9a86))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MAAH_Horizontal.wrl"
+    (model "${KICAD6_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_XLR_Neutrik_NC3MAAH_Horizontal.wrl" hide
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model "/Users/matt/Downloads/NC3MAAH/3D/NC3MAAH.stp"
+    (model "/Users/matt/Downloads/NC3MAAH/3D/NC3MAAH.stp" hide
       (offset (xyz 3.6 -9.4 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
