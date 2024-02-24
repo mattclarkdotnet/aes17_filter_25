@@ -3328,15 +3328,15 @@
 			(pintype "passive")
 			(uuid "742e8da5-ab32-4dfc-8401-0e2b5024091c")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01.wrl"
+		(model "/Users/matt/git.nosync/aes17_filter_25/3d/7447480102.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 135)
 			)
 		)
 	)
@@ -3980,6 +3980,7 @@
 			(uuid "350b830a-8296-42c0-bc59-0887a9b96426")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3988,6 +3989,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/matt/git.nosync/aes17_filter_25/3d/7447480102.stp"
+			(offset
+				(xyz 2.5 0 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135)
 			)
 		)
 	)
@@ -6034,15 +6046,15 @@
 			(pintype "passive")
 			(uuid "1c95c2ed-17b8-4dec-b8c1-8081a9b38e83")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01.wrl"
+		(model "/Users/matt/git.nosync/aes17_filter_25/3d/7447480102.stp"
 			(offset
-				(xyz 0 0 0)
+				(xyz 2.5 0 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz 0 0 135)
 			)
 		)
 	)
@@ -7365,6 +7377,7 @@
 			(uuid "8d2a3cb4-63d6-4e04-9dc3-85f427e24642")
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Inductor_THT.3dshapes/L_Radial_D10.5mm_P5.00mm_Abacron_AISR-01.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7373,6 +7386,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "/Users/matt/git.nosync/aes17_filter_25/3d/7447480102.stp"
+			(offset
+				(xyz 2.5 0 3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 135)
 			)
 		)
 	)
