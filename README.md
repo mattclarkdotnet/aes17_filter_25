@@ -1,3 +1,17 @@
+# VERSION 2 WIP
+
+Doing:
+
+* Space inductors out more to address excess HD3 found by @sarieri on ASR
+* Move pad-down network to before filter so lower value resistors can be used
+* Use 4-layer board to simplify layout
+* Replace some oversized resistors with smaller 0.25W versions
+* Update to KiCad 8
+
+Maybe:
+* Switch to shielded coilcraft inductors - the issue is these have 10% tolerance instead of 5%
+
+
 # Goals
 
 The goal is to make a cheap DIY passive filter for use in class D amp measurements, much like the AP AUX-0025.  The AP AUX-0025 specs as read off the [AP website](https://www.ap.com/analyzers-accessories/accessories/aux-family-switching-amplifier-measurement-filters/) are approximately:
@@ -19,9 +33,9 @@ The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitati
 
 # Design discussion
 
-See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  There is also a set of test jacks for connecting a multimeter to monitor true RMS output.  The matching to the AUX-0025 response curve is nonetheless very close.
+See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  The matching to the AUX-0025 response curve is nonetheless very close.
 
-A set of pad-down resistors allows for convenient high voltage measurements at the expense of some increase in residual noise when they are switched in.  R11 and R12 pad-down resistors should be 1% tolerance, with values chosen for the load of your particular ADC and the gain reduction you want to achieve.  For a 20dB reduction into a 60kOhm load use 270kOhm resistors: $`60K/(60K+270K*2)=0.1`$, or for a 12dB reduction into a 100kOhm load use 150kOhm resistors: $`100K/(100K+150K*2)=0.25`$
+A set of pad-down resistors allows for convenient high voltage measurements, by default giving -20dB of gain.
 
 The load impedance should be >50kOhm for best performance, but a 10kOhm load is still +-0.1dB 20Hz-20kHz, albeit with 0.4dBV of insertion loss.
 
