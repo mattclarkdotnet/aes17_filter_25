@@ -14,10 +14,11 @@ Maybe:
 
 # Goals
 
-The goal is to make a cheap DIY passive filter for use in class D amp measurements, much like the AP AUX-0025.  The AP AUX-0025 specs as read off the [AP website](https://www.ap.com/analyzers-accessories/accessories/aux-family-switching-amplifier-measurement-filters/) are approximately:
-* Rejection > 50 dB, 250 kHz to 20 MHz
-* +-0.05dB, 20Hz-20kHz
+The goal is to make a cheap DIY passive filter for use in class D amp measurements, much like the AP AUX-0025.  The AP AUX-0025 specs as read off the [AP website](https://www.ap.com/analyzers-accessories/accessories/aux-family-switching-amplifier-measurement-filters/) are:
+* Rejection > 50dB, 250 kHz to 20 MHz
+* Frequency response +-0.05dB, 20Hz-20kHz
 * Max input voltage 400V P-P (140Vrms)
+* THD < -110dB
 
 I also wanted the ability to pad down the output for high power measurements.  The resulting board looks like this:
 
@@ -25,7 +26,12 @@ I also wanted the ability to pad down the output for high power measurements.  T
 
 # Results
 
-The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitation from 20Hz to 20kHz, and 50dB rejection or more from 230kHz up.  The 100mdBV variation is maintained across a wide range of loads from 15k to 450k.
+- [x] Rejection > 50dB, _230_ kHz to 20 MHz
+- [x] Frequency response +-0.05dB, 20Hz-20kHz
+- [x] Max input voltage 400V P-P (140Vrms)
+- [x] THD = _-130dB_
+
+The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitation from 20Hz to 20kHz, and 50dB rejection or more from 230kHz up.  The 100mdBV variation is maintained across a wide range of loads from 15k to 450k.  Measured THD is more like -130dB, so will not add to measured distortion of amplifiers, but may impact extreme resolution DAC measurements.
 
 ![Screenshot of simulated frequency response](./freq_load100k.png)
 
