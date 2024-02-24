@@ -1823,7 +1823,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "1a991df1-2998-4afa-9e2d-818fce17df21")
-		(at 223.52 55.88)
+		(at 221.3 53.26)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H2"
@@ -5791,7 +5791,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "7a2d010f-03d3-47a6-92ca-5b72d265048a")
-		(at 58.42 55.88)
+		(at 56.3 53.26)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H1"
@@ -6049,7 +6049,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "81954444-67b7-4120-a7a7-1bd25a5c2e1a")
-		(at 58.42 129.54)
+		(at 56.3 133.26)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H3"
@@ -8672,7 +8672,7 @@
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "da5bdacb-ed73-4af9-9699-fffe40d906bc")
-		(at 223.52 129.54)
+		(at 221.3 133.26)
 		(descr "Mounting Hole 3.2mm, no annular, M3")
 		(tags "mounting hole 3.2mm no annular m3")
 		(property "Reference" "H4"
@@ -9026,7 +9026,7 @@
 	)
 	(gr_rect
 		(start 51.3 48.26)
-		(end 231.14 138.26)
+		(end 226.3 138.26)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -9035,23 +9035,10 @@
 		(layer "Edge.Cuts")
 		(uuid "0d1f677c-f78c-409e-99ea-644979a263d3")
 	)
-	(gr_text "AES17 25KHz Filter\n0.1dB variation 20Hz-20KHz\n-55dB at 250KHz\n140Vrms max"
-		(at 129.54 63.5 0)
+	(gr_text "AES17 25KHz Filter\n0.1dB variation 20Hz-20KHz into >50k load\n-55dB rejection at 250KHz\n\n140Vrms continuous into >10k load\n75Vrms continuous into short circuit\n\n(c) Matt Clark 2024\nCERN-OHL-W\n\nPCB            175x90mm\nMounting holes 165x80mm"
+		(at 128.27 79.375 0)
 		(layer "F.SilkS")
 		(uuid "443104b9-c8ef-414e-a913-3ccb20a37cdb")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "(c) Matt Clark 2024\nCERN-OHL-W\n\nPCB 180x90mm"
-		(at 129.54 76.2 0)
-		(layer "F.SilkS")
-		(uuid "dedf8cbd-b096-4c76-b290-7bff86e80d62")
 		(effects
 			(font
 				(size 1.5 1.5)

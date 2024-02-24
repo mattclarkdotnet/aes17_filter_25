@@ -11,7 +11,8 @@ Doing:
 
 Maybe:
 * Switch to shielded coilcraft inductors - the issue is these have 10% tolerance instead of 5%
-
+* Reduce Vrms goal to 60 - this is 900W into 4ohms - would allow use of smaller and cheaper parts
+* Create a version with most parts SMD - this would probably not be safe into a short circuit but could be orderable through JLC
 
 # Goals
 
@@ -46,7 +47,7 @@ A set of pad-down resistors allows for convenient high voltage measurements, by 
 
 The load impedance should be >50kOhm for best performance, but a 10kOhm load is still +-0.1dB 20Hz-20kHz, albeit with 0.4dBV of insertion loss.
 
-Pin 1 on each XLR socket is connected to a ground pour on the back of the PCB, as are the XLR chassis grounding pins.  This gave the best noise results for me in an all metal case.
+Pin 1 on each XLR socket is connected to a ground pour on layer 2 of the PCB, as are the XLR chassis grounding pins.  The board should be mounted in an all metal case.
 
 A brief short circuit, even with a high voltage applied, should be OK. The 500R/3W input resistors can take a steady state 75Vrms indefinitely ($75V^2/1000R=5.6W$), although the inductors will clearly saturate unless a reasonable load is connected to limit the current to 800mA. The 140Vrms requirement into more reasonable loads is met by the voltage ratings of the capacitors. In the case of C1 and C2 this provides a rated 500Vpp between signal rails.
 
@@ -56,7 +57,7 @@ You will need to add your own switch to the build for the voltage divider. If no
 
 If you want to use different components then you will need to ensure you model them from scratch, e.g. if changing the inductors you will need to model the changed series resistance.  
 
-Case choice is up to you, as cost and availability varies a lot by location.  The omnigraffle diagram I used as a front panel drilling guide is included as a starting point.
+Case choice is up to you, as cost and availability varies a lot by location, but it must be all metal with all parts connected electrically.
 
 # BOM
 
