@@ -6,6 +6,7 @@ Doing:
 * Move pad-down network to before filter so lower value resistors can be used
 * Use 4-layer board to simplify layout
 * Replace some oversized resistors with smaller 0.25W versions
+* Add ground jack
 * Update to KiCad 8
 
 Maybe:
