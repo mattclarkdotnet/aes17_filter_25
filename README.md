@@ -46,7 +46,7 @@ The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitati
 
 # Design discussion
 
-See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  The matching to the AUX-0025 response curve is nonetheless very close.
+See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Inductor tolerances are 5% instead of 2.5%, but resistors are all 1% and the 220p capacitors are 2.5%.  The matching to the AUX-0025 response curve is very close.
 
 A set of pad-down resistors allows for convenient high voltage measurements, by default giving -20dB of gain.
 
