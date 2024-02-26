@@ -1691,6 +1691,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 125.73) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13b1b48f-edcf-4108-97d8-4ecdb1e53aca")
+	)
+	(wire
+		(pts
 			(xy 158.75 96.52) (xy 158.75 102.87)
 		)
 		(stroke
@@ -1731,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 118.11) (xy 109.22 115.57)
+			(xy 109.22 115.57) (xy 109.22 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1821,7 +1831,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 90.17) (xy 109.22 87.63)
+			(xy 109.22 87.63) (xy 109.22 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1971,6 +1981,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 97.79) (xy 116.84 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86785d3a-1f15-41da-a93a-817e371cff67")
+	)
+	(wire
+		(pts
 			(xy 133.35 82.55) (xy 137.16 82.55)
 		)
 		(stroke
@@ -2078,16 +2098,6 @@
 			(type default)
 		)
 		(uuid "a961ef02-ca3c-424d-b3f8-579ab0d0dc1c")
-	)
-	(wire
-		(pts
-			(xy 109.22 118.11) (xy 116.84 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b16eca00-3625-4298-8624-6b09d1116abf")
 	)
 	(wire
 		(pts
@@ -2229,16 +2239,6 @@
 		)
 		(uuid "f82f5b08-cc9c-4a81-b3bf-027e8ea62dee")
 	)
-	(wire
-		(pts
-			(xy 109.22 90.17) (xy 116.84 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb584617-bd0d-451c-b480-33e48733f602")
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 124.46 86.36 0)
@@ -2267,7 +2267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 125.4252 90.17 0)
 			(effects
 				(font
@@ -2335,7 +2335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 182.88 79.248 90)
 			(effects
 				(font
@@ -2470,7 +2470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 125.4252 110.49 0)
 			(effects
 				(font
@@ -2594,7 +2594,7 @@
 				)
 			)
 		)
-		(property "Value" "4k5"
+		(property "Value" "2k7"
 			(at 113.03 86.36 90)
 			(effects
 				(font
@@ -2602,7 +2602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 118.618 86.36 90)
 			(effects
 				(font
@@ -2661,7 +2661,7 @@
 				)
 			)
 		)
-		(property "Value" "4k5"
+		(property "Value" "2k7"
 			(at 113.03 114.3 90)
 			(effects
 				(font
@@ -2669,7 +2669,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 118.618 114.3 90)
 			(effects
 				(font
@@ -2737,7 +2737,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm"
 			(at 120.65 112.268 90)
 			(effects
 				(font
@@ -2890,7 +2890,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 199.6948 90.17 0)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 137.16 115.062 90)
 			(effects
 				(font
@@ -3135,6 +3135,73 @@
 			(project "aes17_filter_25"
 				(path "/c6f36ae8-1308-402b-bc56-e2dcef3abf95"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 116.84 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2fc9707b-d867-4744-9d03-9622e8acbcb2")
+		(property "Reference" "R14"
+			(at 110.49 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k8"
+			(at 113.03 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 118.618 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4d7a2d1-9547-4bdc-a403-1101b3b88177")
+		)
+		(pin "2"
+			(uuid "1ae030c3-4bbf-4bd5-b0c7-b64e657fdd19")
+		)
+		(instances
+			(project "aes17_filter_25"
+				(path "/c6f36ae8-1308-402b-bc56-e2dcef3abf95"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3299,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 151.13 65.0748 0)
 			(effects
 				(font
@@ -3706,7 +3773,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal"
 			(at 165.1 84.328 90)
 			(effects
 				(font
@@ -3840,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 208.28 112.268 90)
 			(effects
 				(font
@@ -3910,7 +3977,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 199.6948 110.49 0)
 			(effects
 				(font
@@ -4110,7 +4177,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 137.16 79.248 90)
 			(effects
 				(font
@@ -4179,7 +4246,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 151.13 117.8052 0)
 			(effects
 				(font
@@ -4247,7 +4314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 151.13 76.5048 0)
 			(effects
 				(font
@@ -4431,6 +4498,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 116.84 93.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac507f39-bbf8-41a7-b35d-051a99fd00f8")
+		(property "Reference" "R13"
+			(at 110.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k8"
+			(at 113.03 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 118.618 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5592f48f-9700-4d55-aa2e-4e579a2ba5d8")
+		)
+		(pin "2"
+			(uuid "24ff545d-fdbf-42e9-b1cf-3824414aca3b")
+		)
+		(instances
+			(project "aes17_filter_25"
+				(path "/c6f36ae8-1308-402b-bc56-e2dcef3abf95"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 34.29 165.1 0)
 		(unit 1)
@@ -4521,7 +4655,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L25.0mm_W6.4mm_P30.48mm"
 			(at 120.65 84.328 90)
 			(effects
 				(font
@@ -4607,7 +4741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 208.28 84.328 90)
 			(effects
 				(font
@@ -4676,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W4.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 151.13 129.2352 0)
 			(effects
 				(font
@@ -4825,7 +4959,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 182.88 113.792 90)
 			(effects
 				(font
@@ -4895,7 +5029,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 157.7848 90.17 0)
 			(effects
 				(font
@@ -5244,7 +5378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W9.0mm_P15.00mm_FKS3_FKP3"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W7.2mm_P5.00mm_FKS2_FKP2_MKS2_MKP2"
 			(at 157.7848 110.49 0)
 			(effects
 				(font
@@ -5312,7 +5446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0414_L11.9mm_D4.5mm_P20.32mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0614_L14.3mm_D5.7mm_P20.32mm_Horizontal"
 			(at 165.1 112.268 90)
 			(effects
 				(font
