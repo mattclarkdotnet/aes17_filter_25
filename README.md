@@ -3,11 +3,11 @@
 Doing:
 
 * Space inductors out more to address excess HD3 found by @sarieri on ASR
-* Move pad-down network to before filter so lower value resistors can be used
-* Use serial 0.5W resistors (2k7+1k8) for 4k5 pad down to allow continuous use at 75Vrms without requiring hard to get parts
-* Use 4-layer board to simplify layout
+* Change attenuator network to be independent (nearly) of the input impedance of the ADC.  This adds some switching complexity, but allows use of 1W parts continuously at 140Vrms
+* Use 4-layer board to simplify layout - Ground pour is layer 2, signals are 1 & 3, with some escape traces on 4
 * Replace some oversized resistors with smaller 0.25W versions and improve tolerances
 * Add ground jack
+* Add mounting holes to GND net - use plastic standoffs and screws if you don't want your board GND connected to the case by the screws (it will be connected anyway by the XLR sockets)
 * Update to KiCad 8
 * Use Mouser for BOM (done except for 4mm connectors, which Mouser doesn't have good ones of)
 * Reduce baord width to 175mm
