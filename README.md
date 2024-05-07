@@ -1,3 +1,24 @@
+# VERSION 2 WIP
+
+Doing:
+
+* Space inductors out more to address excess HD3 found by @sarieri on ASR
+* Change attenuator network to be independent (nearly) of the input impedance of the ADC.  This adds some switching complexity, but allows use of 1W parts continuously at 140Vrms
+* Use 4-layer board to simplify layout - Ground pour is layer 2, signals are 1 & 3, with some escape traces on 4
+* Replace some oversized resistors with smaller 0.25W versions and improve tolerances
+* Add ground jack
+* Add mounting holes to GND net - use plastic standoffs and screws if you don't want your board GND connected to the case by the screws (it will be connected anyway by the XLR sockets)
+* Update to KiCad 8
+* Use Mouser for BOM (done except for 4mm connectors, which Mouser doesn't have good ones of)
+* Reduce baord width to 175mm
+* Recommend Hammond 1444-862 case
+
+Maybe:
+* Switch to shielded coilcraft inductors - the issue is these have 10% tolerance instead of 5%
+* Reduce Vrms goal to 60 - this is 900W into 4ohms - would allow use of smaller and cheaper parts
+* Create a version with most parts SMD - this would probably not be safe into a short circuit but could be orderable through JLC
+* Use LCSC for BOM to make prefab with JLC easier
+
 # Goals
 
 The goal is to make a cheap DIY passive filter for use in class D amp measurements, much like the AP AUX-0025.  The AP AUX-0025 specs as read off the [AP website](https://www.ap.com/analyzers-accessories/accessories/aux-family-switching-amplifier-measurement-filters/) are:
@@ -25,13 +46,13 @@ The simulated FR with a 100k load is on target, with -51mdBV to +51mdBV varitati
 
 # Design discussion
 
-See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Capacitor and inductor tolerances are 5% instead of 2.5%.  There is also a set of test jacks for connecting a multimeter to monitor true RMS output.  The matching to the AUX-0025 response curve is nonetheless very close.
+See the design on [CircuitLab](https://www.circuitlab.com/editor/#?id=9zaq989z472b). It is inspired by the AUX-0025 but differs in a few ways.  The component values are more standard, and are reused across the design to reduce the number of different components needed.  Inductor tolerances are 5% instead of 2.5%, but resistors are all 1% and the 220p capacitors are 2.5%.  The matching to the AUX-0025 response curve is very close.
 
-A set of pad-down resistors allows for convenient high voltage measurements at the expense of some increase in residual noise when they are switched in.  R11 and R12 pad-down resistors should be 1% tolerance, with values chosen for the load of your particular ADC and the gain reduction you want to achieve.  For a 20dB reduction into a 60kOhm load use 270kOhm resistors: $`60K/(60K+270K*2)=0.1`$, or for a 12dB reduction into a 100kOhm load use 150kOhm resistors: $`100K/(100K+150K*2)=0.25`$
+A set of pad-down resistors allows for convenient high voltage measurements, by default giving -20dB of gain.
 
 The load impedance should be >50kOhm for best performance, but a 10kOhm load is still +-0.1dB 20Hz-20kHz, albeit with 0.4dBV of insertion loss.
 
-Pin 1 on each XLR socket is connected to a ground pour on the back of the PCB, as are the XLR chassis grounding pins.  This gave the best noise results for me in an all metal case.
+Pin 1 on each XLR socket is connected to a ground pour on layer 2 of the PCB, as are the XLR chassis grounding pins.  The board should be mounted in an all metal case.
 
 A brief short circuit, even with a high voltage applied, should be OK. The 500R/3W input resistors can take a steady state 75Vrms indefinitely ($75V^2/1000R=5.6W$), although the inductors will clearly saturate unless a reasonable load is connected to limit the current to 800mA. The 140Vrms requirement into more reasonable loads is met by the voltage ratings of the capacitors. In the case of C1 and C2 this provides a rated 500Vpp between signal rails.
 
@@ -41,20 +62,21 @@ You will need to add your own switch to the build for the voltage divider. If no
 
 If you want to use different components then you will need to ensure you model them from scratch, e.g. if changing the inductors you will need to model the changed series resistance.  
 
-Case choice is up to you, as cost and availability varies a lot by location.  The omnigraffle diagram I used as a front panel drilling guide is included as a starting point.
+Case choice is up to you, as cost and availability varies a lot by location, but it must be all metal with all parts connected electrically.  A Hammond 1444-862 is a good choice!
 
 # BOM
 
-* R1,R2 500ohm 3W (https://au.element14.com/rcd-resistors-coils-delaylines/135-5000-fbw/wirewound-resistor-500-ohm-3w/dp/1614476)
-* R3,R4 330ohm 1W (https://au.element14.com/vishay/mbe04140c3300fc100/resistor-metal-film-330r-1w-axial/dp/4140145)
-* R5,R6 68ohm 1W (https://au.element14.com/te-connectivity/cfr100j68r/res-68r-5-1w-axial-carbon-film/dp/2329469)
-* R7,R8 3.3k 1W (https://au.element14.com/multicomp/mcf-1w-3k3/res-3k3-5-1w-axial-carbon-film/dp/9337865)
-* R9,R10 22ohm 1W (https://au.element14.com/vishay/ac01000002209ja100/res-22r-5-1w-axial-wirewound/dp/1735039)
-* R11,R12 values to suit your load and desired gain reduction, use 1% tolerances. 
-* C1,C2,C3,C4,C5,C6 220p 250V (https://au.element14.com/wima/fkp2o102201d00jssd/cap-220pf-1-kv-5-pp-through-hole/dp/1519285)
-* C7,C8,C9,C10 4.7n 700V (https://au.element14.com/epcos/b32652a2472j000/cap-4700pf-2kv-film-radial/dp/3518977)
-* L1,L2,L3,L4 1u 1ohm 800mA (https://au.element14.com/wurth-elektronik/7447480102/inductor-1000uh-5-10-5x10-5mm/dp/2211736)
-* J1 XLR female NC3FAAH2 (https://au.element14.com/neutrik/nc3faah2/socket-xlr-pcb-horizontal-3pole/dp/131002301)
-* J2 XLR male NC3MAAH (https://au.element14.com/neutrik/nc3maah/plug-xlr-pcb-horizontal-3pole/dp/1310044)
-* J3,J4 test connectors (https://au.element14.com/cliff-electronic-components/fcr7350r/socket-pcb-4mm-r-a-s16n-pc-red/dp/1854508)
+* R1,R2 500ohm 5W 1% [https://au.mouser.com/ProductDetail/Vishay-Draloric/PAC500005000FAC000?qs=sGAEpiMZZMtlubZbdhIBINC8EtgKGA%2F6i50rchkXbHU%3D] 25x6.4mm
+* R3,R4 330ohm 0.25W 1% [https://au.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/LR0204F330R?qs=sGAEpiMZZMtlubZbdhIBIBiJIqAHDdPFB0JYbliHBqI%3D] 3.5x2mm
+* R5,R6 68ohm 1W 1% [https://au.mouser.com/ProductDetail/Vishay-Dale/CMF6568R000FKR6?qs=sGAEpiMZZMtlubZbdhIBIOM2%252B0H92tq20Jgq%252BUaQb4k%3D] 14.5x4.5mm
+* R7,R8 3.3k 0.25W 1% [https://au.mouser.com/ProductDetail/KOA-Speer/MF1-4DCT52R3301F?qs=2ayCeu1TP5leCJLPVwsFCg%3D%3D] 3.5x2mm
+* R9,R10 22ohm 0.25W 1% [https://au.mouser.com/ProductDetail/TE-Connectivity-Holsworthy/LR1F22R?qs=sGAEpiMZZMtlubZbdhIBIFho3SHfDXStNhO7PeBAY30%3D] 6.2x2.3mm
+* R11,R12 2k7 1W 1% [https://au.mouser.com/ProductDetail/YAGEO/MFR1WSFTF52-2K7?qs=xZ%2FP%252Ba9zWqZMHNDyFGZwSA%3D%3D] 9x3.3mm
+* R13,R14 1k8 1W 1% [https://au.mouser.com/ProductDetail/YAGEO/MFR1WSFTF52-1K8?qs=xZ%2FP%252Ba9zWqYtbloc%2Fjj38w%3D%3D] 9x3.3mm
+* C1,C2,C3,C4,C5,C6 220p 250VDC 2.5% [https://au.mouser.com/ProductDetail/WIMA/FKP2J002201D00HSSD?qs=WI052HLiD5hzJhR9QL5EAQ%3D%3D] 7.2x4.5mm, 5mm pin
+* C7,C8,C9,C10 4.7n 250VDC 5% [https://au.mouser.com/ProductDetail/WIMA/FKP2F014701I00JA00?qs=WI052HLiD5hCY8ty427gtg%3D%3D] 7.2x6.5mm, 5mm pin
+* L1,L2,L3,L4 1u 1ohm 800mA [https://au.mouser.com/ProductDetail/Wurth-Elektronik/7687480102?qs=sGAEpiMZZMv126LJFLh8ywQ8%252ByAE4SZkiWIazUoK6Rs%3D] 10.5mm dia, 5mm pin
+* J1 XLR female NC3FAAH2 [https://au.mouser.com/ProductDetail/Neutrik/NC3FAAH2?qs=jCymNF74TgW4A7eq9uxuLg%3D%3D]
+* J2 XLR male NC3MAAH [https://au.mouser.com/ProductDetail/Neutrik/NC3MAAH?qs=jCymNF74TgXgh2x3smwFTg%3D%3D]
+* J3,J4,J5 test connectors (https://au.element14.com/cliff-electronic-components/fcr7350r/socket-pcb-4mm-r-a-s16n-pc-red/dp/1854508)
 
