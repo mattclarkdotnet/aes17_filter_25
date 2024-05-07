@@ -30,7 +30,7 @@ The goal is to make a cheap DIY passive filter for use in class D amp measuremen
 
 I also wanted the ability to pad down the output for high power measurements.  The resulting board looks like this:
 
-![3D board model](./v2 board.png)
+![3D board model]("./v2board.png")
 
 # Results
 
