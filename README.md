@@ -1,6 +1,6 @@
-# VERSION 2 WIP
+# VERSION 2
 
-Doing:
+Differences to V1:
 
 * Space inductors out more to address excess HD3 found by @sarieri on ASR
 * Change attenuator network to be independent (nearly) of the input impedance of the ADC.  This adds some switching complexity, but allows use of 1W parts continuously at 140Vrms
@@ -13,7 +13,8 @@ Doing:
 * Reduce baord width to 175mm
 * Recommend Hammond 1444-862 case
 
-Maybe:
+Possible future changes:
+
 * Switch to shielded coilcraft inductors - the issue is these have 10% tolerance instead of 5%
 * Reduce Vrms goal to 60 - this is 900W into 4ohms - would allow use of smaller and cheaper parts
 * Create a version with most parts SMD - this would probably not be safe into a short circuit but could be orderable through JLC
